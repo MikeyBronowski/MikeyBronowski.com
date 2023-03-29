@@ -1,1 +1,67 @@
-<iframe id='kofiframe' src='https://ko-fi.com/mikeybronowski/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='mikeybronowski'></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>MikeyBronowski</title>
+	<style>
+		body {
+			margin: 0 auto;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+            max-width: 800px;
+		}
+		
+		section {
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		#ko-fi {
+			width: 50%;
+			height: 500px;
+			background-color: white;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		#flickr {
+			width: 50%;
+			height: 500px;
+			background-image: url('https://live.staticflickr.com/65535/51176792946_88a5a5a5c5_k.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			font-size: 2rem;
+			text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		}
+		
+		#flickr a {
+			color: white;
+			text-decoration: none;
+		}
+		
+		#flickr a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+    <section id="flickr">
+		<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/mikeybronowski/51419206110/in/album-72157719761696659/" title="Bird"><img src="https://live.staticflickr.com/65535/51419206110_a6778ab105_z.jpg" width="640" height="427" alt="Bird"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+	</section>
+
+	<section id="ko-fi">
+		<iframe id='kofiframe' src='https://ko-fi.com/mikeybronowski/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='mikeybronowski'></iframe>
+	</section>
+
+</body>
+</html>
